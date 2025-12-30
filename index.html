@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj Kumar Prajapati | Odoo Developer</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- AOS (Animate On Scroll) Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+    
+    <!-- Scroll To Top Button -->
+    <div class="scroll-top" id="scrollTop">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    
+    <!-- ===== HEADER ===== -->
+    <header id="header">
+        <div class="nav-container">
+            <div class="logo">Port<span>Folio</span></div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul class="menu" id="mainMenu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1 class="animate__animated animate__fadeInDown">Manoj Kumar Prajapati</h1>
+                <h3 class="animate__animated animate__fadeInUp">I'm a <span class="highlight">Passionate Odoo Developer</span></h3>
+                <p>
+                    Skilled in <strong>Odoo, Python, Postgresql, HTML, CSS, GitHub</strong> and love to build end-to-end scalable web solutions.  
+                    I've worked on multiple real-world projects and enjoy solving complex problems with clean code.
+                </p>
+                
+                <div class="hero-btns">
+                    <a href="Manoj_Resume-2.pdf.pdf" class="btn" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                    <a href="#projects" class="btn btn-outline">View My Work</a>
+                </div>
+                
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/manoj-prajapati-531808214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="float-animation">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/Manoj21-cyber" class="float-animation" style="animation-delay: 0.1s;">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" class="float-animation" style="animation-delay: 0.2s;">
+                        <i class="fa-solid fa-code"></i>
+                    </a>
+                    <a href="mailto:manojkumarprajapati0137@gmail.com" class="float-animation" style="animation-delay: 0.3s;">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content" data-aos="fade-up" data-aos-delay="200">
+                <div class="about-text">
+                    <p>👋 Hello, Hii, Namaste! I'm <strong class="highlight">Manoj Kumar Prajapati.</strong> I'm a passionate <strong>Odoo Developer</strong> dedicated to building efficient, scalable, and user-friendly business applications.</p>
+                    <p>I specialize in <strong>Odoo (ERP)</strong> development and customization, with a strong foundation in <strong>Python, PostgreSQL, XML, HTML, CSS, and GitHub</strong>.</p>
+                    <p>I'm constantly exploring new technologies and improving my skills to deliver top-quality work. My goal is to contribute to innovative projects within a forward-thinking organization.</p>
+                    <p>I'm flexible, adaptable, and always eager to take on new challenges that push my boundaries as a developer.</p>
+                </div>
+                
+                <div class="skills">
+                    <div class="skill-item" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fab fa-python"></i>
+                        <h4>Python & Odoo</h4>
+                        <p>Expert in Odoo framework and Python development</p>
+                    </div>
+                    
+                    <div class="skill-item" data-aos="zoom-in" data-aos-delay="400">
+                        <i class="fas fa-database"></i>
+                        <h4>PostgreSQL</h4>
+                        <p>Database design, optimization and management</p>
+                    </div>
+                    
+                    <div class="skill-item" data-aos="zoom-in" data-aos-delay="500">
+                        <i class="fas fa-code"></i>
+                        <h4>Web Technologies</h4>
+                        <p>HTML, CSS, XML, JavaScript for frontend development</p>
+                    </div>
+                    
+                    <div class="skill-item" data-aos="zoom-in" data-aos-delay="600">
+                        <i class="fas fa-cogs"></i>
+                        <h4>ERP Customization</h4>
+                        <p>Custom modules, workflows, and integrations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-header">
+                        <h3>Foodbank (Singapore)</h3>
+                    </div>
+                    <div class="project-body">
+                        <ul>
+                            <li>Backend customization in Sale module.</li>
+                            <li>Fleet module enhancement based on food quantity.</li>
+                            <li>Customized QWeb reports for Sale, Fleet, Purchase.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-header">
+                        <h3>Gafco (Saudi Arabia)</h3>
+                    </div>
+                    <div class="project-body">
+                        <ul>
+                            <li>Dashboard in Contacts module showing sale order cards.</li>
+                            <li>Feature additions across CRM, Sale, Purchase, Inventory.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-header">
+                        <h3>Arctx (Armenia)</h3>
+                    </div>
+                    <div class="project-body">
+                        <ul>
+                            <li>Employee resignation workflow with multi-level approval.</li>
+                            <li>Trip request system with expense tracking and review.</li>
+                            <li>Customized QWeb and XLSX reports.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-header">
+                        <h3>Accessory Geeks (Korea)</h3>
+                    </div>
+                    <div class="project-body">
+                        <ul>
+                            <li>Migration from Odoo 14 to Odoo 16.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="project-header">
+                        <h3>Harp Chemical (Tanzania)</h3>
+                    </div>
+                    <div class="project-body">
+                        <ul>
+                            <li>Custom menu and SEIF token system for vehicle entry.</li>
+                            <li>Inward token validation for purchase orders.</li>
+                            <li>Customized QWeb and XLSX reports.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="project-header">
+                        <h3>Internal ERP</h3>
+                    </div>
+                    <div class="project-body">
+                        <ul>
+                            <li>Timesheet and feedback system.</li>
+                            <li>Automated product offer logic with validation.</li>
+                            <li>Customized record rules and access rights.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EXPERIENCE SECTION ===== -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Associate Software Engineer — Brainvire Infotech</h3>
+                        <span class="duration">June 2022 – July 2023</span>
+                        <ul>
+                            <li><strong>Foodbank (Singapore):</strong> Backend customization in Sale and Fleet modules, dynamic customer preview table, and QWeb reports.</li>
+                            <li><strong>Gafco (Saudi Arabia):</strong> Dashboard in Contacts module with sale order cards, enhancements across CRM, Contacts, Sale, Purchase, Inventory.</li>
+                            <li><strong>Arctx (Armenia):</strong> Resignation and trip workflows with multi-level approvals, expense tracking, and QWeb/XLSX reports.</li>
+                            <li><strong>Accessory Geeks (Korea):</strong> Migration from Odoo 14 to Odoo 16.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Freelancer</h3>
+                        <span class="duration">September 2023 – December 2023</span>
+                        <ul>
+                            <li><strong>Harp Chemical (Tanzania):</strong> SEIF token system for vehicle entry, inward token validation, and custom QWeb/XLSX reports.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Jr Odoo Developer — Captiva India</h3>
+                        <span class="duration">January 2024 – June 2024</span>
+                        <ul>
+                            <li><strong>Internal ERP:</strong> Timesheet and feedback system, automated product offers, task creation with validation, and access rights customization.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer — Globaltekz Solution</h3>
+                        <span class="duration">July 2024 – June 2025</span>
+                        <ul>
+                            <li><strong>Nddds (India):</strong> Sales model customization, task automation, CRM integration, dashboard design, and XLSX/PDF reporting.</li>
+                            <li><strong>Prince Graphic (India):</strong> Credit workflow customization, job card and invoice management, multi-delivery logic, and report templates for Sales, Purchase, Manufacturing, Inventory, and Accounting.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+            <div class="contact-content">
+                <div class="contact-left" data-aos="fade-right" data-aos-delay="200">
+                    <form id="contactForm" class="contact-form">
+                        <input type="hidden" name="access_key" value="6efb0a2c-47f4-4dd7-8da3-52f6ac17626b" />
+                        <input type="hidden" name="subject" value="New Contact Form Submission from Portfolio" />
+                        
+                        <input type="text" name="name" placeholder="Your Name" required />
+                        <input type="email" name="email" placeholder="Your Email" required />
+                        <input type="text" name="contact" placeholder="Your Phone Number" required />
+                        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                    
+                    <div class="success-message" id="successMessage">
+                        <i class="fas fa-check-circle"></i> Your message has been sent successfully!
+                    </div>
+                </div>
+                
+                <div class="contact-info" data-aos="fade-left" data-aos-delay="300">
+                    <img src="manoj_prajapati.jpeg" alt="Manoj Prajapati" class="contact-image" />
+                    <h3>Let's Connect</h3>
+                    <p><i class="fas fa-envelope"></i> <strong>Email:</strong> manojkumarprajapati0137@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> <strong>Phone:</strong> +91 8369267080</p>
+                    <p><i class="fab fa-whatsapp"></i> <strong>WhatsApp:</strong> +91 8369267080</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <strong>Location:</strong> Siddhartnagar UP, India</p>
+                    
+                    <div class="social-icons" style="margin-top: 30px;">
+                        <a href="https://www.linkedin.com/in/manoj-prajapati-531808214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/Manoj21-cyber">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-solid fa-code"></i>
+                        </a>
+                        <a href="mailto:manojkumarprajapati0137@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-content">
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/manoj-prajapati-531808214?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Manoj21-cyber">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-code"></i>
+                </a>
+                <a href="mailto:manojkumarprajapati0137@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+            
+            <p class="copyright">© 2025 Manoj Kumar Prajapati. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- ===== SCRIPTS ===== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        // Initialize AOS (Animate On Scroll)
+        AOS.init({
+            duration: 800,
+            once: false,
+            offset: 100
+        });
+        
+        // Loading Screen
+        window.addEventListener('load', function() {
+            const loading = document.getElementById('loading');
+            setTimeout(() => {
+                loading.classList.add('hidden');
+            }, 800);
+        });
+        
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+        const mainMenu = document.getElementById('mainMenu');
+        
+        mobileMenuBtn.addEventListener('click', function() {
+            mainMenu.classList.toggle('active');
+            mobileMenuBtn.innerHTML = mainMenu.classList.contains('active') 
+                ? '<i class="fas fa-times"></i>' 
+                : '<i class="fas fa-bars"></i>';
+        });
+        
+        // Close mobile menu when clicking on a link
+        const menuLinks = document.querySelectorAll('.menu a');
+        menuLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                mainMenu.classList.remove('active');
+                mobileMenuBtn.innerHTML = '<i class="fas fa-bars"></i>';
+            });
+        });
+        
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 100) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+        
+        // Scroll to top button
+        const scrollTopBtn = document.getElementById('scrollTop');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 500) {
+                scrollTopBtn.classList.add('active');
+            } else {
+                scrollTopBtn.classList.remove('active');
+            }
+        });
+        
+        scrollTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Active menu link on scroll
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('.menu a');
+        
+        window.addEventListener('scroll', function() {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+        
+        // Contact Form Submission
+        const form = document.getElementById('contactForm');
+        const successMessage = document.getElementById('successMessage');
+        
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+            
+            const formData = new FormData(form);
+            
+            fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                body: formData
+            })
+            .then(response => {
+                if (response.ok) {
+                    form.reset();
+                    successMessage.style.display = "block";
+                    
+                    // Hide success message after 5 seconds
+                    setTimeout(() => {
+                        successMessage.style.display = "none";
+                    }, 5000);
+                } else {
+                    alert("Something went wrong. Please try again.");
+                }
+            })
+            .catch(error => {
+                alert("Error: " + error.message);
+            });
+        });
+        
+        // Add typing effect for hero section
+        const heroTitle = document.querySelector('.hero h3 span');
+        const titles = ["Odoo Developer", "Python Developer", "ERP Specialist", "Full Stack Developer"];
+        let titleIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+        let typingSpeed = 100;
+        
+        function typeEffect() {
+            const currentTitle = titles[titleIndex];
+            
+            if (isDeleting) {
+                heroTitle.textContent = currentTitle.substring(0, charIndex - 1);
+                charIndex--;
+                typingSpeed = 50;
+            } else {
+                heroTitle.textContent = currentTitle.substring(0, charIndex + 1);
+                charIndex++;
+                typingSpeed = 100;
+            }
+            
+            if (!isDeleting && charIndex === currentTitle.length) {
+                typingSpeed = 1500; // Pause at end
+                isDeleting = true;
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                titleIndex++;
+                if (titleIndex === titles.length) titleIndex = 0;
+                typingSpeed = 500; // Pause before typing next
+            }
+            
+            setTimeout(typeEffect, typingSpeed);
+        }
+        
+        // Start typing effect after page loads
+        setTimeout(() => {
+            typeEffect();
+        }, 1500);
+    </script>
+</body>
+</html>
